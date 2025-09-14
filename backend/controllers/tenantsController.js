@@ -1,5 +1,5 @@
 import asyncHandler from 'express-async-handler';
-
+import Tenant from '../models/tenantModel.js';
 
 // @route   POST /api/tenants/:slug/upgrade
 // @access  Private/Admin
