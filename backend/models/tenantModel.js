@@ -24,4 +24,4 @@ const tenantSchema = mongoose.Schema(
 
 const Tenant = mongoose.model('Tenant', tenantSchema);
 
-export default Tenant;
+export default Tenant
